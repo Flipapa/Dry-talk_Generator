@@ -26,7 +26,8 @@
     
   </form>
 </div>
-
+{{#if option}}
 <script>
   document.querySelector(`input[value = "{{option.target}}"]`).checked = true
 </script>
+{{/if}}
